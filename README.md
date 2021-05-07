@@ -1,1 +1,1 @@
-# coding-project-template
+# This is the version from dieterbk
