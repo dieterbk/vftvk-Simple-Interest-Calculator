@@ -24,9 +24,9 @@ function compute()
  
     // Generating the result text
     var htmloutput;
-    htmploutput  = "If you deposit <mark>" +  principal + "</mark><br>";
-    htmploutput += "at an interest rate of <mark>" + Number.parseFloat(rate).toFixed(1) + "%</mark><br>";
-    htmploutput += "You will receive an amount of <mark>" + interest + "</mark><br>";
+    htmploutput  = "If you deposit <mark>" +  principal + "</mark>,<br>";
+    htmploutput += "at an interest rate of <mark>" + Number.parseFloat(rate).toFixed(1) + "%</mark>.<br>";
+    htmploutput += "You will receive an amount of <mark>" + interest + "</mark>,<br>";
     htmploutput += "in the year <mark>" + year + "</mark>";
 
     // Set the result text
